@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 468px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 145px;
+}
+
+.logo {
+    width: 125px;
+    height: 125px;
+    border-radius: 125px;
+    background-color: #DDB771;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.header {
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F1E8D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 37px;
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #0D0D0C;
+}
+
+.form {
+    background-color: rgba(221, 183, 113, 0.22);
+    border-radius: 5px;
+    padding: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input-label {
+    font-weight: 400;
+    font-size: 15px;
+    color: #0F0F0F;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    height: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0px 6px 20px rgba(206, 206, 206, 0.25);
+    margin-bottom: 25px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.form__subtitle {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0D0D0C;
+    margin-bottom: 40px;
+}
+
+.form__button {
+    background-color: #08A045;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: none;
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 55px;
+}
+
+.content p,
+.content p a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(15, 15, 15, 0.71);
+    text-decoration: none;
+    margin-bottom: 6px;
+}
+
+.content__link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.63);
+}
+
+.privacy__container {
+    margin-bottom: 116px;
+}
+
+.privacy__link {
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000
+}

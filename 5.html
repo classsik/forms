@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./5.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="./6.html" class="form" method="get">
+        <button class="form__close" type="button">
+            <img src="./5_assets/close.svg" alt="">
+        </button>
+        <div class="form__content">
+            <h1 class="form__title">
+                ОБРАТНЫЙ ЗВОНОК
+            </h1>
+            <input type="text" class="form__input" placeholder="Имя" required>
+            <input type="tel" class="form__input" placeholder="Телефон" required>
+            <div class="form__checkbox">
+                <div>
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <p>Я даю согласие на обработку персональных данных в соответствии
+                    с <a href="">политикой конфиденциальности</a></p>
+            </div>
+            <button class="form__button" type="submit">Заказать звонок</button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFBF1;
+    overscroll-behavior: none;
+}
+
+.form-block {
+    max-width: 875px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.form-block__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #6D3496;
+    margin-bottom: 70px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #6D3496;
+    margin-bottom: 20px;
+}
+
+.form__subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #6D3496;
+    margin-bottom: 30px;
+}
+
+.form__row {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    height: 42px;
+    border: 2px solid #6D3496;
+    border-radius: 3px;
+    padding: 0 15px;
+    background: none;
+    width: 100%;
+    flex: 1;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #6D3496;
+    outline: none;
+}
+
+.form__textarea {
+    resize: none;
+    width: 100%;
+    height: 108px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #6D3496;
+    border: 2px solid #6D3496;
+    border-radius: 3px;
+    background: none;
+    padding: 10px 15px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.form__agree {
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #6D3496;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form__agree-checkbox {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.form__button {
+    padding: 10px 25px;
+    background: #6D3496;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFBF1;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #6D3496;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.footer__content {
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer__column {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer__center {
+    flex: 2.7;
+    text-align: center;
+}
+
+.footer__logo-img {
+    width: 120px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__copyright {
+    align-self: flex-end;
+}
+
+.footer__center-header {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFBF1;
+    margin-bottom: 40px;
+}
+
+.footer__menu {
+    list-style: none;
+}
+
+.footer__menu-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer__menu-item a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFBF1;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFBF1;
+}
+
+.footer__button {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #FFFBF1;
+    border-radius: 3px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFBF1;
+    margin-bottom: 30px;
+}
+
+.footer__phones-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.footer__phones-item p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFBF1;
+}
+
+.footer__arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
